@@ -16,7 +16,7 @@ import axios from 'axios'
 
   try {
     const res = await axios.post(
-      `${import.meta.env.VITE_API_URL}/api/auth/register`,
+      "https://biodata-generator-backend.onrender.com/api/auth/register",
       { fullname, 
         email, 
         password 
